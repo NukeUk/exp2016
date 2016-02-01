@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var daytimeService = require('../services/daytimeService.js');
 
 // /* GET home page. */
 // router.get('/', function(req, res, next) {
@@ -9,7 +10,8 @@ var router = express.Router();
 router.get('/', function(req, res){
 	res.render('index', {
 		title: 'My App',
-		age: 40
+		age: 32,
+		daytime: daytimeService(new Date())
 	});
 });
 

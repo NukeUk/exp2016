@@ -6,6 +6,6 @@
   </head>
   <body>
     <h1>{{ title }}</h1>
-    <p>I am {{ age }} years old.</p>
+    <p>I am {{ age }} years old. Now is {{ daytime }} ho ho </p>
   </body>
 </html>
