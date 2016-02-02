@@ -9,7 +9,7 @@ function daytimeService(date) {
 	else if(date.getHours() <=24){
 		curDayTime = 'evening';
 	}
-	console.log(curDayTime);
+	//console.log(curDayTime);
 
 	return curDayTime;
 }
